@@ -34,22 +34,36 @@
 
 ## 📥 安装
 
-### 方法一：从 GitHub Release 安装（推荐 🏆）
+### 方法一：npm 包安装
+
+```bash
+npm install -g cc-adapter-v2
+```
+
+然后在 `opencode.json` 的 `plugin` 数组中加入 `cc-adapter-v2`：
+
+```json
+{
+  "plugin": ["cc-adapter-v2"]
+}
+```
+
+### 方法二：从 GitHub Release 安装（推荐 🏆）
 
 ```bash
 # 用 tag 安装（自动从 GitHub 下载）
-npm install FountainChan/opencode-cc-adapter#v2.0.0
+npm install FountainChan/opencode-cc-adapter#v2.0.1
 ```
 
-### 方法二：从 tgz 包安装
+### 方法三：从 tgz 包安装
 
-到 [GitHub Releases](https://github.com/FountainChan/opencode-cc-adapter/releases) 下载 `cc-adapter-v2-2.0.0.tgz`：
+到 [GitHub Releases](https://github.com/FountainChan/opencode-cc-adapter/releases) 下载 `cc-adapter-v2-2.0.1.tgz`：
 
 ```bash
-npm install ./cc-adapter-v2-2.0.0.tgz
+npm install ./cc-adapter-v2-2.0.1.tgz
 ```
 
-### 方法三：本地开发安装
+### 方法四：本地开发安装
 
 ```bash
 npm install /path/to/cc-adapter-v2

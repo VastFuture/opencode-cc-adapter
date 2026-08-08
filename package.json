@@ -1,6 +1,6 @@
 {
   "name": "cc-adapter-v2",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "type": "module",
   "description": "Lightweight Claude Code → OpenCode bridge. Extracted from oh-my-openagent — drops the heavy agent orchestration, keeps the ecosystem compatibility: commands, skills, MCP, agents, plugins.",
   "main": "dist/index.js",
@@ -40,5 +40,13 @@
     "vitest": "^3.0.0"
   },
   "keywords": ["opencode", "plugin", "claude-code", "adapter", "bridge", "commands", "skills", "mcp"],
-  "license": "SEE LICENSE IN LICENSE.md"
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FountainChan/opencode-cc-adapter.git"
+  },
+  "homepage": "https://github.com/FountainChan/opencode-cc-adapter#readme",
+  "bugs": {
+    "url": "https://github.com/FountainChan/opencode-cc-adapter/issues"
+  }
 }
